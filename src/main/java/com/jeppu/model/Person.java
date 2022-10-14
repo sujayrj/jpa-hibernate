@@ -15,7 +15,7 @@ import java.util.Date;
 @Entity(name = "people")            //Entity name
 public class Person {
     @Id
-    @GeneratedValue(strategy = GenerationType.TABLE)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "person_id")
     private Long id;
 
